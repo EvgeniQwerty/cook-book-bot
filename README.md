@@ -31,8 +31,8 @@ Cook-book-bot is a Telegram bot designed to help users manage cooking recipes an
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/cook-bot.git
-   cd cook-bot
+   git clone https://github.com/evgeniqwerty/cook-book-bot.git
+   cd cook-book-bot
    ```
 
 2. Create a virtual environment and activate it:
