@@ -19,8 +19,8 @@ DATABASE_NAME = "recipes.db"
 LANGUAGE = os.getenv("LANGUAGE", "en")  # Default language is English, can be 'en' or 'ru'
 
 # Recipe categories
-CATEGORIES = ["Завтраки", "Обеды", "Ужины", "Десерты", "Закуски", "Напитки"] if LANGUAGE == "ru" else \
-            ["Breakfast", "Lunch", "Dinner", "Desserts", "Snacks", "Drinks"]
+CATEGORIES = ["Завтраки", "Супы", "Обеды", "Десерты", "Закуски", "Напитки"] if LANGUAGE == "ru" else \
+            ["Breakfasts", "Soups", "Lunches", "Desserts", "Snacks", "Drinks"]
 
 # AI prompt template
 AI_PROMPT_TEMPLATE = """
